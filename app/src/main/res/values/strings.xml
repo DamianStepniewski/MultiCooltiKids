@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">MultiCoolti Kids</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_venues">Venues</string>
+    <!-- Navigation drawer -->
+    <string name="my_profile">My profile</string>
+    <string name="status">Status</string>
+    <string name="log_out">Log out</string>
+    <string name="log_in">Log in</string>
+    <!-- Main Menu -->
+    <string name="messages">Messages</string>
+    <string name="friends">Friends</string>
+    <string name="new_friend">New Friend</string>
+    <string name="venues">Venues</string>
+    <string name="next_place">Next Place</string>
+    <string name="my_meetings">Meetings</string>
+    <string name="register">Create account</string>
+    <string name="found_friend">Found friend</string>
+    <string name="find_friend_resign">Thank you! You can find a new friend tomorrow.</string>
+    <string name="next_venue">Nearest Venue</string>
+    <string name="address">Address:</string>
+    <string name="offer_venue">Offer a venue</string>
+    <string name="select_venue">Select a venue</string>
+    <string name="date_and_time">Date and time</string>
+    <!-- Meetings -->
+    <string name="new_meeting">New meeting invitation from</string>
+    <string name="decline">Decline</string>
+    <string name="upcoming_meetings">Upcoming</string>
+    <string name="past_meetings">Past</string>
+    <string name="no_meetings">No meetings</string>
+    <string name="from">From</string>
+    <string name="invitation_sent">An invitation has been sent.</string>
+    <!-- My Profile -->
+    <string name="new_password">New Password</string>
+    <string-array name="sex_array">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="name">Name:</string>
+    <string name="email">E-mail:</string>
+    <string name="telephone">Telephone:</string>
+    <string name="change_password">Change Password</string>
+    <string name="kids">Kids</string>
+    <string name="add_kid">Add Kid</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="sex">Sex:</string>
+    <string name="description">Description:</string>
+    <string name="password_changed">Password changed.</string>
+    <string name="year_old">year old</string>
+    <string name="years_old">years old</string>
+    <!-- Friends -->
+    <string name="no_friends">You don\'t have any friends yet.</string>
+    <!-- Messages -->
+    <string name="received">Received</string>
+    <string name="sent">Sent</string>
+    <string name="message_type">Type message</string>
+    <string name="new_message">You have unread messages.</string>
+    <!-- Other -->
+    <string name="cancel">Cancel</string>
+    <string name="username">E-mail</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="accept">Accept</string>
+    <string name="invite">Invite</string>
+    <string name="resign">Resign</string>
+    <string name="service_name">MultiCoolti Service</string>
+    <string name="events">Events</string>
+    <string name="playgrounds">Playgrounds</string>
+    <string name="monuments">Monuments</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="friend">Friend</string>
+    <string name="address_no_colon">Address</string>
+    <!--Errors-->
+    <string name="name_empty">You must provide a name.</string>
+    <string name="email_invalid">This is not a valid e-mail address.</string>
+    <string name="password_length_invalid">Password has to be at least 6 characters long.</string>
+    <string name="passwords_dont_match">Passwords don\'t match.</string>
+    <string name="email_used">This email is already used by another account.</string>
+    <string name="login_failed">Incorrect e-mail or password.</string>
+    <string name="not_logged_in">You are not logged in.</string>
+    <string name="logged_out">You have been logged out.</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="friend_not_found">Sorry, we couldn\'t find any new friend for you, try again later.</string>
+    <string name="friend_limit_exceeded">You can search for a new friend only once per day.</string>
+    <string name="friend_status_error">Your status needs to be toggled on.</string>
+    <string name="name_address_invalid">Please type venue\'s name and address.</string>
+    <string name="error_select_venue">Please select a venue.</string>
+    <string name="message_empty">Please type your message.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_venue"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/venues_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/venues_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/venues_name"
+        android:text="Address"
+        android:textColor="@color/colorGray"/>
+    <TextView
+        android:id="@+id/venues_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/venues_address"
+        android:text="Time"
+        android:textColor="@color/colorGray"/>
+    <TextView
+        android:id="@+id/venues_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/venues_time"
+        android:text="Description"
+        android:textColor="@color/colorGray" />
+</RelativeLayout>

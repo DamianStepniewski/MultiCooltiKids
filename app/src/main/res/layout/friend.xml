@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/layout_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/textView_friend_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="17sp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/textView_friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_friend_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_friend_name"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/textView_friend_phone_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/textView_friend_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_friend_kids_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kids"
+        android:textSize="17sp"
+        android:layout_below="@id/layout_friend_phone"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:id="@+id/layout_friend_kid_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friend_kids_title"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@xml/line"
+        android:layout_below="@id/layout_friend_kid_container"/>
+</RelativeLayout>

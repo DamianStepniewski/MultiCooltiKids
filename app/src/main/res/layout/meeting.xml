@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/colorAccentLight">
+        <TextView
+            android:id="@+id/textView_meeting_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/colorAccentLight">
+        <TextView
+            android:id="@+id/textView_meeting_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/colorAccentLight">
+        <TextView
+            android:id="@+id/textView_meeting_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@color/colorAccentLight">
+        <TextView
+            android:id="@+id/textView_meeting_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/colorAccentLight">
+        <TextView
+            android:id="@+id/textView_meeting_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

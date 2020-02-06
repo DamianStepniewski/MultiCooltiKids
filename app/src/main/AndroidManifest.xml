@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="pl.snikk.multicooltikids">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.multicoolti.accept" />
+                <action android:name="com.multicoolti.decline" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".VenuesActivity" />
+        <activity android:name=".ChooseVenueActivity" />
+        <activity android:name=".MeetingsActivity" />
+        <activity android:name=".FriendsActivity" />
+
+        <service
+            android:name=".UpdateCheckerService"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/service_name" />
+
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ConversationActivity"></activity>
+    </application>
+</manifest>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.multicoolti.multicooltikids.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:id="@+id/button_messages"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_message_text_outline_white_48dp"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/messages"
+                android:textSize="20dp"
+                android:id="@+id/textViewMessages"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/button_friends"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_account_multiple_white_48dp"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friends"
+                android:textSize="20dp"
+                android:id="@+id/textViewFriends"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/button_newFriend"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:layout_below="@id/firstRow"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_account_multiple_plus_white_48dp"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_friend"
+            android:textSize="20dp"
+            android:id="@+id/textViewNewFriend"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/thirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/button_newFriend">
+        <RelativeLayout
+            android:id="@+id/button_venues"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_bank_white_48dp"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/venues"
+                android:textSize="20dp"
+                android:id="@+id/textViewVenues"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/button_next"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_arrow_right_bold_circle_outline_white_48dp"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_place"
+                android:textSize="20dp"
+                android:id="@+id/textViewNext"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/button_meetings"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_calendar_text_white_48dp"
+                android:layout_centerInParent="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_meetings"
+                android:textSize="20dp"
+                android:id="@+id/textViewMeetings"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
